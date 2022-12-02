@@ -14,4 +14,5 @@ for (const ingredient of ingredients) {
 
   const ingredientsEl = document.querySelector("#ingredients");
   ingredientsEl.append(ingredientsList);
+  console.log(ingredientsList);
 }
