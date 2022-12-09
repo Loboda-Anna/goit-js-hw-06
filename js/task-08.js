@@ -20,6 +20,7 @@ function onFormSubmit(event) {
 
   if (email.value.length > 0 && password.value.length > 0) {
     console.log(userData);
+    alert("Successfully!");
   }
 
   event.currentTarget.reset();
